@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Afacad Flux";
+}
+
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(-45deg, #B790E8, #6E59CE);
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+section {
+    width: 400px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+section h2 {
+    margin: 0 0 25px 0;
+}
+
+section form {
+    display: grid;
+    gap: 20px;
+}
+
+section h4 {
+    margin: 0 0 5px 0;
+}
+
+section form input:not(:first-child) {
+    border: 1px solid #B0B1B3;
+    border-radius: 4px;
+    width: 100%;
+}
+
+section form input {
+    padding: 5px;
+}
+
+section form button {
+    font-size: 15.5px;
+    color: #D2CBEF;
+    background-color: #6E59CE;
+    padding: 7.5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+}
